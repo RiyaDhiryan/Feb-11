@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #eaedee;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    margin-right: 70px;
+    display: flex;
+    gap:60px;
+}
+header ul li a{
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+
+}
+header ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size:22px ;
+}
+header img{
+    margin-left: 70px;
+}
+.header-home a{
+color: rgb(32, 234, 187);
+}
+/* Second part */
+main{
+    display: flex;
+    justify-content:center;
+     /* align-items: center;  */
+}
+/* left part */
+.main-left-part{
+     margin-left: 5% ; 
+    margin-top: 50px;
+    width: 40%;
+    position: relative;
+}
+.topAngle{
+    width:20px;
+}
+main h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+main p{
+    color: rgb(141, 136, 136);
+}
+.bottomAngle{
+     width: 25px; 
+    position: absolute;
+     right: 25px; 
+}
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    right: -25%;
+    z-index: -1;
+  }
+  main button{
+    margin-top: 20px;
+    background-color: rgb(70, 197, 133);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: white;
+  }
+  .mouse{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+  }
+  /* Right part */
+  .main-right-part{
+    width: 60%;
+    
+  }
+  .greenBox,.yellowBox{
+position: absolute;
+
+  }
+ .yellowBox{
+    width:27%;
+    bottom: 40px;
+    right: 0px;
+
+ }
+ .greenBox{
+    width:30%;
+    bottom: 40px;
+    right: 40px;
+    
+ }
+ .doctor{
+    position: absolute;
+    height: 90%;
+    right: 1%;
+    bottom: 0%;
+ }

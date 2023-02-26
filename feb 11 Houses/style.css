@@ -1,0 +1,358 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./assests/mainBackground.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  position: relative;
+  color: white;
+  background-color:rgb(240, 238, 238) ;
+}
+li,a{
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    margin-left: 80px;
+    display: flex;
+    gap:30px;
+}
+
+nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+nav img{
+    margin-right: 300px;
+    height: 130px;
+    width: 130px;
+}
+header hr{
+    margin-left: 90px;
+    background-color: white;
+    height: 4px;
+    width: 90%;
+}
+/* Second part */
+.second{
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.second h1{
+    font-size: 70px;
+    width:50%
+}
+.second p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    width: 40%;
+}
+.second button{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #605edf;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border:none;
+}
+.logoName{
+    display: flex;
+     margin-top: 280px;
+    justify-content: center;
+    align-items: center;
+    gap:70px;
+    background-color: white;
+    width: fit-content;
+    padding: 0px 30px;
+    border-radius: 50px;
+    margin-left: 90px;
+    
+}
+.logoName img{
+   
+    height: 200px;
+    width: 200px;
+}
+/* Third part */
+main h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    font-size: 55px;
+    font-weight: 600;
+    color:black;
+  
+}
+main h1:first-child{
+    margin-top: 90px;
+}
+
+.main-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main img{
+   margin-top:50px ;
+    position: relative;
+    height: 500px;
+    width:500px;
+    border-radius: 20px;
+}
+.cardImage2{
+    margin-top: 20px;
+}
+.cardImage3{
+    margin-top: 40px;
+}
+.cardImage4{
+    margin-top: 40px; 
+}
+.cardImage5{
+    margin-top: 20px;
+}
+.cardImage8{
+    margin-top: 20px;
+}
+.cardImage9{
+    margin-top: 40px;
+}
+main h3{
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+}
+main p{
+    font-size: 20px;
+    font-weight: 600;
+    color:#605edf;
+}
+main button{
+    background-color: #605edf;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.main-detail{
+    background-color:white ;
+    border: none;
+    width: fit-content;
+    padding: 30px 80px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    display: flex;
+    gap:50px;
+    margin-top: -60px;
+position: relative;
+}
+/* Fourth part */
+/* Left part */
+.featuresImage1{
+     height: 390px;
+     width: 360px;
+     border-radius: 20px;
+     position:absolute;
+     margin-left: -479px;
+      margin-top: -220px;
+     
+}
+.featureImageBg1{
+    position:relative;
+    margin-top: 50px;
+    height: 520px;
+    width: 520px;
+}
+.Fourth-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Fourth-left h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    /* width:100%; */
+}
+.Fourth-left p{
+    margin:30px 0px;
+    font: 20px;
+    font-weight: 600;
+    color: black;
+    width: 60%;
+}
+.Fourth-left button{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #605edf;
+    padding:10px 30px;
+    border-radius: 20px;
+    border: none; 
+}
+/* Right part */
+.featuresImage2{
+    height: 330px;
+    margin-top: -120px;
+    width: 330px;
+    border-radius: 20px;
+    position:absolute;
+    margin-right: -840px;
+}
+.fourth-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.featureImageBg2{
+    position:relative;
+    height: 420px;
+    width: 600px;
+
+}
+.fourth-right h1{
+    font-size: 50px;
+    width: 60%;
+    font-weight: 600;
+    color: black;
+}
+.fourth-right p{
+    margin:30px 0px;
+    font: 20px;
+    font-weight: 600;
+    color: black;
+    width: 60%;
+}
+.fourth-right button{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #605edf;
+    padding:10px 30px;
+    border-radius: 20px;
+    border: none; 
+}
+/* Fifth part */
+.fifth{
+    margin-left: 100px;
+    margin-right: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #605edf;
+    border-radius: 20px;
+    border: none;
+    width:fit-content;
+    padding: 20px;
+
+}
+.fifth h1{
+    margin-left: 150px;
+    font-size: 80px;
+    font-weight: 800;
+    color: white;
+}
+.fifth p{
+    margin-left: 240px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    width: 60%;
+}
+.fifth input:first-child{
+    margin-left: 200px;
+      color: white;
+      background-color: #4b48e3;
+      padding: 20px 250px;
+      border-radius: 20px;
+      border: none;
+      position: relative;
+}
+.fifth-mail{
+    position: relative;
+    margin-left: -620px;
+    margin-bottom: -10px;
+}
+.fifth-subs{
+    display: flex;
+
+
+}
+.fifth button{
+    background-color: white;
+    color: #605edf;
+    width: fit-content;
+    padding: 10px 40px;
+    border: none;
+    margin-left: 650px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.footer-img{
+    display: flex;
+    flex-direction: column;
+}
+.footer-img:first-child{
+    /* margin-left: 100px; */
+    margin-bottom: 50px;
+    height: 200px;
+    width:200px;
+}
+.footer-logo{
+    display: flex;
+    margin-top: 30px;
+    height: 50px;
+    width: 50px;
+    gap:30px;
+}
+footer p{
+    margin-top: 30px;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    width:150%;
+}
+footer ul li:first-child{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+footer ul li{
+    margin-top:20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+footer ul li a{
+    color: black;
+}
+

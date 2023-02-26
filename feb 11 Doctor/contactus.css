@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #eaedee;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
+/* Header */
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+a,li{
+    list-style: none;
+    text-decoration: none;
+}
+header ul{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+header ul li{
+    font-size: 20px;
+    font-weight: 600;
+}
+header ul li a{
+    color: black;
+}
+header ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size:22px ;
+}
+/* form */
+
+    main{
+    margin-top: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+main h1{
+    display: flex;
+    justify-content: center;
+}
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 250px; 
+        box-shadow: 0 0 10px black;
+        border-radius: 10px;
+        padding: 20px;
+       
+      }
+
+form label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+Form button{
+
+    background-color: rgb(70, 197, 133) ;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}

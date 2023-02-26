@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #eaedee;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
+/* Header */
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+a,li{
+    list-style: none;
+    text-decoration: none;
+}
+header ul{
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+}
+header ul li{
+    font-size: 20px;
+    font-weight: 600;
+}
+header ul li a{
+    color: black;
+}
+header ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+    font-size:22px ;
+}
+/* Main Section */
+main{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main h1{
+    margin-bottom: 30px;
+    color: rgb(70, 197, 133);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+main p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-two{
+    display: flex;
+    justify-content: center;
+}
+.main-three{
+    display: flex;
+    justify-content: center;
+}
+.main-b{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+main span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(70, 197, 133);
+    font-size: 30px;
+    font-weight: 600;
+}
+.main-buttons{
+    font-size: 30px;
+    font-weight: 600;
+}
+.main-buttons1{
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 10px 60px;
+}
+.main-buttons2{
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 10px 60px;
+}
+.main-buttons3{
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 10px 60px;
+}
